@@ -17,6 +17,6 @@ Products     |  Product Details
 - [x] Inheritance - Final Keyword, Init()
 - [x] Memory Management
 
-## Social Media:
+## Social Media
 - Linkedin: https://www.linkedin.com/in/umitsimsekk
 - Instagram: https://www.instagram.com/umitsimsekk
