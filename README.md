@@ -16,3 +16,7 @@ Products     |  Product Details
 - [x] Closure, Completion, Enum
 - [x] Inheritance - Final Keyword, Init()
 - [x] Memory Management
+
+## Social Media:
+- Linkedin: https://www.linkedin.com/in/umitsimsekk
+- Instagram: https://www.instagram.com/umitsimsekk
