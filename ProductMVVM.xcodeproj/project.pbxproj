@@ -9,21 +9,36 @@
 /* Begin PBXBuildFile section */
 		DB3E7AE729CF479D000ADC6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7AE629CF479D000ADC6A /* AppDelegate.swift */; };
 		DB3E7AE929CF479D000ADC6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7AE829CF479D000ADC6A /* SceneDelegate.swift */; };
-		DB3E7AEB29CF479D000ADC6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7AEA29CF479D000ADC6A /* ViewController.swift */; };
 		DB3E7AEE29CF479D000ADC6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3E7AEC29CF479D000ADC6A /* Main.storyboard */; };
 		DB3E7AF029CF479E000ADC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3E7AEF29CF479E000ADC6A /* Assets.xcassets */; };
 		DB3E7AF329CF479E000ADC6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3E7AF129CF479E000ADC6A /* LaunchScreen.storyboard */; };
+		DB3E7B0729CF4873000ADC6A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7B0629CF4873000ADC6A /* Constant.swift */; };
+		DB3E7B0929CF4899000ADC6A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7B0829CF4899000ADC6A /* Product.swift */; };
+		DB3E7B0B29CF48C8000ADC6A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7B0A29CF48C8000ADC6A /* APIManager.swift */; };
+		DB3E7B0D29CF48F2000ADC6A /* UIImageView + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7B0C29CF48F2000ADC6A /* UIImageView + Extention.swift */; };
+		DB3E7B1029CF4997000ADC6A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DB3E7B0F29CF4997000ADC6A /* Kingfisher */; };
+		DB3E7B1229CF49E9000ADC6A /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7B1129CF49E9000ADC6A /* ProductViewModel.swift */; };
+		DB3E7B1429CF4A24000ADC6A /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7B1329CF4A24000ADC6A /* ProductListViewController.swift */; };
+		DB3E7B1629CF4AF1000ADC6A /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7B1529CF4AF1000ADC6A /* ProductCell.swift */; };
+		DB89826929CF50AA00077D95 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89826829CF50AA00077D95 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB3E7AE329CF479D000ADC6A /* ProductMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3E7AE629CF479D000ADC6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB3E7AE829CF479D000ADC6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB3E7AEA29CF479D000ADC6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB3E7AED29CF479D000ADC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB3E7AEF29CF479E000ADC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB3E7AF229CF479E000ADC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB3E7AF429CF479E000ADC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3E7B0629CF4873000ADC6A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		DB3E7B0829CF4899000ADC6A /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		DB3E7B0A29CF48C8000ADC6A /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		DB3E7B0C29CF48F2000ADC6A /* UIImageView + Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extention.swift"; sourceTree = "<group>"; };
+		DB3E7B1129CF49E9000ADC6A /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		DB3E7B1329CF4A24000ADC6A /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		DB3E7B1529CF4AF1000ADC6A /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		DB89826829CF50AA00077D95 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB3E7B1029CF4997000ADC6A /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +72,102 @@
 		DB3E7AE529CF479D000ADC6A /* ProductMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				DB3E7AE629CF479D000ADC6A /* AppDelegate.swift */,
-				DB3E7AE829CF479D000ADC6A /* SceneDelegate.swift */,
-				DB3E7AEA29CF479D000ADC6A /* ViewController.swift */,
-				DB3E7AEC29CF479D000ADC6A /* Main.storyboard */,
-				DB3E7AEF29CF479E000ADC6A /* Assets.xcassets */,
-				DB3E7AF129CF479E000ADC6A /* LaunchScreen.storyboard */,
+				DB3E7B0029CF481D000ADC6A /* Scenes */,
+				DB3E7AFF29CF4815000ADC6A /* Constant */,
+				DB3E7AFE29CF480C000ADC6A /* Storyboards */,
+				DB3E7AFD29CF47FF000ADC6A /* Application */,
+				DB3E7AFC29CF47F7000ADC6A /* Resources */,
+				DB3E7AFB29CF47EF000ADC6A /* Helper */,
+				DB3E7AFA29CF47E4000ADC6A /* Extention */,
 				DB3E7AF429CF479E000ADC6A /* Info.plist */,
 			);
 			path = ProductMVVM;
+			sourceTree = "<group>";
+		};
+		DB3E7AFA29CF47E4000ADC6A /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E7B0C29CF48F2000ADC6A /* UIImageView + Extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		DB3E7AFB29CF47EF000ADC6A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E7B0A29CF48C8000ADC6A /* APIManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DB3E7AFC29CF47F7000ADC6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E7AEF29CF479E000ADC6A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB3E7AFD29CF47FF000ADC6A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E7AE629CF479D000ADC6A /* AppDelegate.swift */,
+				DB3E7AE829CF479D000ADC6A /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DB3E7AFE29CF480C000ADC6A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E7AEC29CF479D000ADC6A /* Main.storyboard */,
+				DB3E7AF129CF479E000ADC6A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DB3E7AFF29CF4815000ADC6A /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E7B0629CF4873000ADC6A /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		DB3E7B0029CF481D000ADC6A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E7B0329CF4832000ADC6A /* Model */,
+				DB3E7B0229CF482C000ADC6A /* View */,
+				DB3E7B0129CF4823000ADC6A /* ViewModel */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		DB3E7B0129CF4823000ADC6A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E7B1129CF49E9000ADC6A /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DB3E7B0229CF482C000ADC6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E7B1329CF4A24000ADC6A /* ProductListViewController.swift */,
+				DB3E7B1529CF4AF1000ADC6A /* ProductCell.swift */,
+				DB89826829CF50AA00077D95 /* DetailsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB3E7B0329CF4832000ADC6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E7B0829CF4899000ADC6A /* Product.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +186,9 @@
 			dependencies = (
 			);
 			name = ProductMVVM;
+			packageProductDependencies = (
+				DB3E7B0F29CF4997000ADC6A /* Kingfisher */,
+			);
 			productName = ProductMVVM;
 			productReference = DB3E7AE329CF479D000ADC6A /* ProductMVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +217,9 @@
 				Base,
 			);
 			mainGroup = DB3E7ADA29CF479D000ADC6A;
+			packageReferences = (
+				DB3E7B0E29CF4997000ADC6A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = DB3E7AE429CF479D000ADC6A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +247,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB3E7AEB29CF479D000ADC6A /* ViewController.swift in Sources */,
+				DB3E7B1229CF49E9000ADC6A /* ProductViewModel.swift in Sources */,
+				DB3E7B0729CF4873000ADC6A /* Constant.swift in Sources */,
+				DB3E7B0929CF4899000ADC6A /* Product.swift in Sources */,
+				DB3E7B0B29CF48C8000ADC6A /* APIManager.swift in Sources */,
+				DB3E7B0D29CF48F2000ADC6A /* UIImageView + Extention.swift in Sources */,
 				DB3E7AE729CF479D000ADC6A /* AppDelegate.swift in Sources */,
+				DB3E7B1629CF4AF1000ADC6A /* ProductCell.swift in Sources */,
+				DB3E7B1429CF4A24000ADC6A /* ProductListViewController.swift in Sources */,
 				DB3E7AE929CF479D000ADC6A /* SceneDelegate.swift in Sources */,
+				DB89826929CF50AA00077D95 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +472,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DB3E7B0E29CF4997000ADC6A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB3E7B0F29CF4997000ADC6A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB3E7B0E29CF4997000ADC6A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DB3E7ADB29CF479D000ADC6A /* Project object */;
 }
