@@ -21,6 +21,8 @@
 		DB3E7B1429CF4A24000ADC6A /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7B1329CF4A24000ADC6A /* ProductListViewController.swift */; };
 		DB3E7B1629CF4AF1000ADC6A /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7B1529CF4AF1000ADC6A /* ProductCell.swift */; };
 		DB89826929CF50AA00077D95 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89826829CF50AA00077D95 /* DetailsViewController.swift */; };
+		DB89826E29CF775000077D95 /* Details.png in Resources */ = {isa = PBXBuildFile; fileRef = DB89826C29CF775000077D95 /* Details.png */; };
+		DB89827229CF77BC00077D95 /* ProductList.png in Resources */ = {isa = PBXBuildFile; fileRef = DB89827129CF77BC00077D95 /* ProductList.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		DB3E7B1329CF4A24000ADC6A /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
 		DB3E7B1529CF4AF1000ADC6A /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		DB89826829CF50AA00077D95 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DB89826C29CF775000077D95 /* Details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Details.png; sourceTree = "<group>"; };
+		DB89827129CF77BC00077D95 /* ProductList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProductList.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		DB3E7ADA29CF479D000ADC6A = {
 			isa = PBXGroup;
 			children = (
+				DB89826A29CF772200077D95 /* Screenshots */,
 				DB3E7AE529CF479D000ADC6A /* ProductMVVM */,
 				DB3E7AE429CF479D000ADC6A /* Products */,
 			);
@@ -170,6 +175,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		DB89826A29CF772200077D95 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				DB89827129CF77BC00077D95 /* ProductList.png */,
+				DB89826C29CF775000077D95 /* Details.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -235,6 +249,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB3E7AF329CF479E000ADC6A /* LaunchScreen.storyboard in Resources */,
+				DB89827229CF77BC00077D95 /* ProductList.png in Resources */,
+				DB89826E29CF775000077D95 /* Details.png in Resources */,
 				DB3E7AF029CF479E000ADC6A /* Assets.xcassets in Resources */,
 				DB3E7AEE29CF479D000ADC6A /* Main.storyboard in Resources */,
 			);
